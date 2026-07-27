@@ -40,27 +40,6 @@ export class UserService {
             email
         })
 
-        //      try {
-
-        //    const user = await this.userModel.findOne({
-        //             email:loginDto.email
-        //         })
-
-        //         if(!user){
-        //             throw new UnauthorizedException("Inavlid credentials")
-        //         }
-
-        //       const comparePassword = await bcrypt.compare(  loginDto.password ,user.password)
-
-        //       const payload = 
-
-
-        //      } catch (error) {
-        //         console.log(error)
-
-        //      }
-
-
 
     }
 

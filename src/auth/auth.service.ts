@@ -53,9 +53,6 @@ export class AuthService {
       throw new UnauthorizedException("Invalid exception")
     }
 
-    const comapare = await bcrypt.compare(loginDto.password, user
-      .password
-    )
 
     const compare = await bcrypt.compare(loginDto.password, user.password);
 

@@ -12,7 +12,6 @@ export class AuthService {
 
   ) { }
 
-
   async userRegister(registerDTO: RegisterDTO) {
 
     console.log("Register user DTO  : " + registerDTO.firstName)

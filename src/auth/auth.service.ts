@@ -22,15 +22,6 @@ export class AuthService {
     const hashPassword = await bcrypt.hash(registerDTO.password, 10)
 
 
-    // Logic for user register
-    /**
-     * V 1. check if email already exist
-     * V 2. hash the password
-     * V 3. store the user into db
-     * 4. generate jwt token 
-     * 5. send token in response 
-     * 
-       */
 
     const user = await this.userService.createUser({
       ...registerDTO,
@@ -61,9 +52,6 @@ export class AuthService {
       throw new UnauthorizedException("Invalid exception")
     }
 
-    const comapare = await bcrypt.compare(loginDto.password, user
-      .password
-    )
 
     const compare = await bcrypt.compare(loginDto.password, user.password);
 

@@ -29,7 +29,6 @@ export class AuthService {
     });
 
 
-    // jwt token
 
     const payload = { sub: user._id, role: 'admin' }
 

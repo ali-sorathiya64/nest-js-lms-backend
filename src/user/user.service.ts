@@ -40,7 +40,6 @@ export class UserService {
             email
         })
 
-
     }
 
     async getUserById(id:string) {

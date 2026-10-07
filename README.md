@@ -111,7 +111,7 @@ Create a `.env` file in the root directory of the project.
 
 ```env
 MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt-secret
+JWT_SECRET=your-jwt-secret
 PORT=3000
 ```
 

@@ -34,7 +34,7 @@ export class UserService {
     }
 
 
-    async loginUser(email: string) {
+    async loginUser(email:string) {
 
         return await this.userModel.findOne({
             email

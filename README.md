@@ -1,6 +1,6 @@
 # NestJS LMS Backend
 
-A backend application for a Learning Management System (LMS) built with **NestJS, TypeScript, MongoDB, and Mongoose**.
+A backend application for a Learning Management System (LMS) built with **NestJS, TypeScript, MongoDB,DTO and Docker**.
 
 This project provides user authentication, JWT-based authorization, role-based access control, and course management APIs.
 
